@@ -11,8 +11,7 @@ body{
     display: grid;
     grid-template-areas: 
                 "h h h h"
-                "n m m as"
-                "f f f f";
+                "n m m as";
 }
 main{    
     background-color: #ffffe6;	
@@ -219,6 +218,10 @@ figcaption {
     color: #1f7a7a;
 }
 
+th, td {
+    border: solid 1px black;
+    padding: 5px;
+}
 @media screen and (max-width: 768px) {
     main{
         display: grid;
