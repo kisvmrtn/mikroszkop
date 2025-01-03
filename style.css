@@ -62,7 +62,7 @@ aside{
     padding: 12px;
     margin: 0px;
     grid-area: as;
-    max-width: 250px;
+    width: 250px;
 }
 aside a{
     text-decoration: none;
@@ -223,19 +223,20 @@ th, td {
     padding: 5px;
 }
 @media screen and (max-width: 768px) {
-    main{
+    body{
         display: grid;
         grid-template-columns:1fr;
         grid-template-areas:
             "h"
             "n"
             "as"
-            "s"
+            "m"
             "f";
     }
     nav{        
         background-color: #1f7a7a;
         color: #ffffe6;
+        width: 100%;
     }
     nav a{
         color: #ffffe6;  
